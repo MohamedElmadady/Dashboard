@@ -1091,10 +1091,11 @@ ul {
     font-size: 40px;
     bottom: 12px;
 }
+@media (max-width:767px {
 .friends-page .friends .friend div:last-child div {
     font-size: 10px;
 }
-
+}
 /* End Friends Page */
 /* End Friends Page */
 /* End Friends Page */
