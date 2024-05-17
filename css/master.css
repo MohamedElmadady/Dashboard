@@ -153,6 +153,8 @@ ul {
     }
 }
 /* End Sidebar */
+.tickets > div {
+    flex-wrap:wrap }
 /* Start Heading */
 .content {
     width: 100%;
