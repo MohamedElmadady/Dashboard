@@ -833,7 +833,7 @@ ul {
     
 }
 .profile-page .overview .avatar-box  {
-    width: 300px;
+    width: 100%;
     flex-direction: column;
 }
 @media (min-width:767px) {
@@ -865,6 +865,7 @@ ul {
 }
 .profile-page .overview .info .box div:not(:last-child) {
     min-width: 250px;
+    margin-left: -5%;
 }
 .profile-page .overview .info .box .toggle-switch {
     height: 20px;
@@ -1090,6 +1091,9 @@ ul {
     font-size: 40px;
     bottom: 12px;
 }
+.friends-page .friends .friend div:last-child div {
+    font-size: 10px;
+}
 
 /* End Friends Page */
 /* End Friends Page */
@@ -1264,6 +1268,11 @@ ul {
     background-color: #eee;
     position: relative;
     border-radius: 6px 6px 6px 6px;
+}
+@media (max-width:767px) {
+    .projects-page .projects .project .footer .level {
+    width: 100%
+    }
 }
 .projects-page .projects .project .footer .level span{
     position: absolute;
